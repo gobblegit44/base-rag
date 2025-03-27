@@ -3,7 +3,7 @@ import ollama
 # Load the dataset
 
 dataset = []
-with open('cat-facts.txt', 'r') as file:
+with open('dog-facts.txt', 'r') as file:
   dataset = file.readlines()
   print(f'Loaded {len(dataset)} entries')
 
