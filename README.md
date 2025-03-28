@@ -1,7 +1,5 @@
-# Python implementation of RAG
-# equipped to handle singular topic enquiry (base_rag.py) 
-# & equipped to handle a user enquiry across multiple topics (multiQ_rag.py) 
-
+# Python implementation of RAG comparing
+# singular topic enquiry (base_rag.py) & multiple topic enquiry (multiQ_rag.py) 
 
 To run the models, we will use ollama, a command line tool that allows us to run models from Hugging Face. With ollama, you don't need to have access to a server or cloud service to run the models. You can run the models directly on your computer.
 
