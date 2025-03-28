@@ -43,7 +43,7 @@ def retrieve(query, top_n=3):
   return similarities[:top_n]
 
 
-# Chatbot
+# Chatbot handling singular topic
 
 input_query = input('Ask me a question: ')
 retrieved_knowledge = retrieve(input_query)
