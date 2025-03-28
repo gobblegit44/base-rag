@@ -1,7 +1,6 @@
 # Python implementation of 
 # a RAG equipped to handle singular topic (base_rag.py) 
-## & 
-# a RAG equipped to handle multiple topics (multiQ_rag.py) 
+# & a RAG equipped to handle multiple topics (multiQ_rag.py) 
 ## discussed in the User question or input.
 
 To run the models, we will use ollama, a command line tool that allows us to run models from Hugging Face. With ollama, you don't need to have access to a server or cloud service to run the models. You can run the models directly on your computer.
@@ -9,6 +8,7 @@ To run the models, we will use ollama, a command line tool that allows us to run
 For the models, let's use the following:
 
 Embedding model: hf.co/CompendiumLabs/bge-base-en-v1.5-gguf
+
 Language model: hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF
 
 And for the dataset, we will use a simple list of facts about cats and dogs extracted from web/wiki (extract_content.py). Each fact will be considered as a chunk in the indexing phrase.
@@ -17,6 +17,7 @@ And for the dataset, we will use a simple list of facts about cats and dogs extr
 After installation, open a terminal and run the following command to download the required models:
 
 ollama pull hf.co/CompendiumLabs/bge-base-en-v1.5-gguf
+
 ollama pull hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF
 
 After the models are successfully downloaded and before continuing to load data, let's also install the ollama package to use ollama in python:
